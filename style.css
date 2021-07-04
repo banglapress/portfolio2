@@ -1,0 +1,70 @@
+body{
+    font-family: 'Bitter', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-text{
+    color: orangered;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+
+.button-link{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(Tomato, Orange);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#pro-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(109, 119, 206), blue);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, red);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+}
